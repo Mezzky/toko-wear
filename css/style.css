@@ -647,6 +647,9 @@ header .icons #menu-bars{
 }
 
 @media (max-width:768px){
+    html{
+        overflow-x: hidden;
+    }
 
     header .icons #menu-bars{
         display: inline-block;
