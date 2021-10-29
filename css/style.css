@@ -669,7 +669,6 @@ header .icons #menu-bars{
 
 @media (max-width:768px){
     .pembatas{
-        border: 5px solid black;
         width: 100%;
         position: relative;
         overflow: hidden;
