@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-    --green:#db994e;
-    --black:#a35e21;
+    --green:#f19c79;
+    --black:#a44a3f;
     --light-color:#666;
     --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
 }
@@ -56,11 +56,14 @@ section:nth-child(even){
     border-radius: .5rem;
     cursor: pointer;
     padding:.8rem 3rem;
+    transition: .3s;
 }
 
 .btn:hover{
     background: var(--green);
-    letter-spacing: .1rem;
+    /* letter-spacing: .1rem; */
+    font-weight: bold;
+    transform: scale(1.1);
 }
 
 header{
@@ -176,6 +179,10 @@ header .icons #menu-bars{
     font-size: 5rem;
 }
 
+.home .home-slider .slide .content p .fa-fire{
+    color: orange;
+}
+
 .home .home-slider .slide{
     display: flex;
     align-items: center;
@@ -247,6 +254,14 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
+.dishes .box-container .box .fa-heart{
+    color: rgb(192, 1, 1);
+}
+
+.dishes .box-container .box .fa-eye{
+    color: rgb(0, 0, 0);
+}
+
 .dishes .box-container .box .fa-heart:hover,
 .dishes .box-container .box .fa-eye:hover{
     background: var(--green);
@@ -285,7 +300,8 @@ header .icons #menu-bars{
 
 .dishes .box-container .box .stars i{
     font-size: 1.7rem;
-    color:var(--green);
+    /* color:var(--green); */
+    color: #ffba08;
 }
 
 .dishes .box-container .box span{
@@ -398,6 +414,10 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
+.menu .box-container .box .image .fa-heart{
+    color: rgb(192, 1, 1);
+}
+
 .menu .box-container .box .image .fa-heart:hover{
     background-color: var(--green);
     color:#fff;
@@ -414,7 +434,8 @@ header .icons #menu-bars{
 
 .menu .box-container .box .content .stars i{
     font-size: 1.7rem;
-    color:var(--green);
+    /* color:var(--green); */
+    color: #ffba08;
 }
 
 .menu .box-container .box .content h3{
