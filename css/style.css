@@ -668,8 +668,11 @@ header .icons #menu-bars{
 }
 
 @media (max-width:768px){
-    html{
-        overflow-x: hidden;
+    .pembatas{
+        border: 5px solid black;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
     }
 
     header .icons #menu-bars{
