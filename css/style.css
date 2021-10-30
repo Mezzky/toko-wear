@@ -63,7 +63,7 @@ section:nth-child(even){
     background: var(--green);
     /* letter-spacing: .1rem; */
     font-weight: bold;
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 header{
@@ -82,6 +82,7 @@ header .logo{
     color:var(--black);
     font-size: 2.5rem;
     font-weight: bolder;
+    font-family: cursive;
 }
 
 header .logo i{
@@ -177,6 +178,10 @@ header .icons #menu-bars{
     cursor: pointer;
     top: 2rem; right:3rem;
     font-size: 5rem;
+}
+
+.home{
+    border-bottom: 3px solid var(--green);
 }
 
 .home .home-slider .slide .content p .fa-fire{
@@ -309,6 +314,11 @@ header .icons #menu-bars{
     font-weight: bolder;
     margin-right: 1rem;
     font-size: 2.5rem;
+}
+
+.about{
+    border-top: 3px solid var(--green);
+    border-bottom: 3px solid var(--green);
 }
 
 .about .row{
@@ -555,6 +565,10 @@ header .icons #menu-bars{
     margin-top: 0;
 }
 
+.footer{
+    border-top: 3px solid var(--green);
+}
+
 .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -574,6 +588,10 @@ header .icons #menu-bars{
     color:var(--light-color);
 }
 
+.footer .box-container .box #email{
+    text-transform: none;
+}
+
 .footer .box-container .box a:hover{
     color:var(--green);
     text-decoration: underline;
@@ -581,7 +599,7 @@ header .icons #menu-bars{
 
 .footer .credit{
     text-align: center;
-    border-top: .1rem solid rgba(0,0,0,.1);
+    border-top: 3px solid var(--green);
     font-size: 2rem;
     color:var(--black);
     padding:.5rem;
