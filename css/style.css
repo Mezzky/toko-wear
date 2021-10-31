@@ -82,7 +82,7 @@ header .logo{
     color:var(--black);
     font-size: 2.5rem;
     font-weight: bolder;
-    font-family: cursive;
+    /* font-family: ; */
 }
 
 header .logo i{
@@ -229,13 +229,13 @@ header .icons #menu-bars{
     background:var(--green);
 }
 
-.dishes .box-container{
+.discc .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap:1.5rem;
 }
 
-.dishes .box-container .box{
+.discc .box-container .box{
     padding:2.5rem;
     background:#fff;
     border-radius: .5rem;
@@ -246,8 +246,8 @@ header .icons #menu-bars{
     text-align: center;
 }
 
-.dishes .box-container .box .fa-heart,
-.dishes .box-container .box .fa-eye{
+.discc .box-container .box .fa-heart,
+.discc .box-container .box .fa-eye{
     position: absolute;
     top:1.5rem;
     background:#eee;
@@ -259,57 +259,57 @@ header .icons #menu-bars{
     color:var(--black);
 }
 
-.dishes .box-container .box .fa-heart{
+.discc .box-container .box .fa-heart{
     color: rgb(192, 1, 1);
 }
 
-.dishes .box-container .box .fa-eye{
+.discc .box-container .box .fa-eye{
     color: rgb(0, 0, 0);
 }
 
-.dishes .box-container .box .fa-heart:hover,
-.dishes .box-container .box .fa-eye:hover{
+.discc .box-container .box .fa-heart:hover,
+.discc .box-container .box .fa-eye:hover{
     background: var(--green);
     color:#fff;
 }
 
-.dishes .box-container .box .fa-heart{
+.discc .box-container .box .fa-heart{
     right:-15rem;
 }
 
-.dishes .box-container .box .fa-eye{
+.discc .box-container .box .fa-eye{
     left:-15rem;
 }
 
-.dishes .box-container .box:hover .fa-heart{
+.discc .box-container .box:hover .fa-heart{
     right:1.5rem;
 }
 
-.dishes .box-container .box:hover .fa-eye{
+.discc .box-container .box:hover .fa-eye{
     left:1.5rem;
 }
 
-.dishes .box-container .box img{
+.discc .box-container .box img{
     height:17rem;
     margin:1rem 0;
 }
 
-.dishes .box-container .box h3{
+.discc .box-container .box h3{
     color:var(--black);
     font-size: 2.5rem;
 }
 
-.dishes .box-container .box .stars{
+.discc .box-container .box .stars{
     padding:1rem 0;
 }
 
-.dishes .box-container .box .stars i{
+.discc .box-container .box .stars i{
     font-size: 1.7rem;
     /* color:var(--green); */
     color: #ffba08;
 }
 
-.dishes .box-container .box span{
+.discc .box-container .box span{
     color:var(--green);
     font-weight: bolder;
     margin-right: 1rem;
@@ -738,7 +738,7 @@ header .icons #menu-bars{
         font-size: 50%;
     }
 
-    .dishes .box-container .box img{
+    .discc .box-container .box img{
         height:auto;
         width: 100%;
     }
