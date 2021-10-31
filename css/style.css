@@ -61,9 +61,7 @@ section:nth-child(even){
 
 .btn:hover{
     background: var(--green);
-    /* letter-spacing: .1rem; */
     font-weight: bold;
-    /* transform: scale(1.1); */
 }
 
 header{
@@ -82,7 +80,6 @@ header .logo{
     color:var(--black);
     font-size: 2.5rem;
     font-weight: bolder;
-    /* font-family: ; */
 }
 
 header .logo i{
@@ -121,7 +118,7 @@ header .icons i:hover,
 header .icons a:hover{
     color:#fff;
     background: var(--green);
-    transform: rotate(360deg);
+    /* transform: rotate(360deg); */
 }
 
 header .icons #menu-bars{
@@ -634,39 +631,7 @@ header .icons #menu-bars{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media queries  */
+/* media queries breakpoint */
 
 @media (max-width:991px){
 
