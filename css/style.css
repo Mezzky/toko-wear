@@ -695,6 +695,10 @@ header .icons #menu-bars{
     .swiper-pagination{
         opacity: 0;
     }
+
+    .footer .box-container{
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    }
 }
 
 @media (max-width:450px){
