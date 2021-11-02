@@ -327,6 +327,7 @@ header .icons #menu-bars{
 
 .about .row .image{
     flex:1 1 45rem;
+    margin-right: 40px;
 }
 
 .about .row .image img{ 

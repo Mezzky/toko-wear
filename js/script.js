@@ -41,7 +41,7 @@ document.querySelector('#close').onclick = () =>{
 }
 
 var swiper = new Swiper(".home-slider", {
-  spaceBetween: 30,
+  spaceBetween: 150,
   centeredSlides: true,
   autoplay: {
     delay: 10000,
